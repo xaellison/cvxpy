@@ -22,3 +22,8 @@ def scalene(x, alpha, beta):
     """ Alias for ``alpha*pos(x) + beta*neg(x)``.
     """
     return alpha*pos(x) + beta*neg(x)
+
+def scalene2(x, alpha, beta):
+    """ Alias for ``alpha*pos(x) - beta*neg(x)``.
+    """
+    return alpha*pos(x) - beta*neg(x)
